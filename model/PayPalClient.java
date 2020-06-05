@@ -22,8 +22,6 @@ import com.paypal.base.rest.PayPalRESTException;
 @Component
 public class PayPalClient {
 
-	String clientId = "AbRleq8eI2wLyBoRoUheAkcnAIUdRhcKHFX5be_aJl-AqSagDbDSqLH2VcTXv4JiVYzQXSSKnrrpWaS7";
-	String clientSecret = "EMS4PEmPWbMLXCNSLQBmOLYj51ZGHk92TCNHuSW1HN5vH78JN3eJfdtb2kCTU17wbE5Zw6gsnqT0kVMZ";
 	
 	
 	public PayPalClient() {}
