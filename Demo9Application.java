@@ -22,10 +22,10 @@ public class Demo9Application {
 	@Bean("gmail")
     public JavaMailSender gmailMailSender() {
         JavaMailSenderImpl mailSender = new JavaMailSenderImpl();
-        mailSender.setHost("smtp.gmail.com");
-        mailSender.setPort(587);
-        mailSender.setUsername("jacobthejacobs@gmail.com");
-        mailSender.setPassword("yhnltxytuyvybmwt");
+        mailSender.setHost("*");
+        mailSender.setPort(*);
+        mailSender.setUsername("*");
+        mailSender.setPassword("*");
 
         Properties props = mailSender.getJavaMailProperties();
         props.put("mail.smtp.ssl.trust", "smtp.gmail.com");
